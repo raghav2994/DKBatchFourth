@@ -45,6 +45,7 @@ public class E2ETestForEcommerce {
                 .clickSubmitButton();
         Thread.sleep(5000);
         homePageModel.clickOnProduct("Nike court vision low");
+        System.out.println("Hello");
     }
 
     @Test
