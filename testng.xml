@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+
+    <test name="E2E_Firefox" verbose="2">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="org.example.DemoEverTest.E2ETestForEcommerce"/>
+        </classes>
+    </test>
+
+    <test name="E2E_Chrome" verbose="10">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="org.example.DemoEverTest.E2ETestForEcommerce"/>
+        </classes>
+    </test>
+
+
+</suite>
