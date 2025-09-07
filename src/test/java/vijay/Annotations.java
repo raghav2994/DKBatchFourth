@@ -37,7 +37,7 @@ public class Annotations {
     @Test
     public void testTwo()
     {
-        System.out.println("Test two method is executed");
+        System.out.println("Test two method is executed in the end");
     }
 
     @Test
