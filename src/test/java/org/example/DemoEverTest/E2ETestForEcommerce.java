@@ -26,11 +26,11 @@ public class E2ETestForEcommerce {
         switch(browserName){
             case "chrome":
                 chromeOptions = new ChromeOptions();
-                driver = new RemoteWebDriver(new URL(" http://192.168.68.104:4444"), chromeOptions);
+                driver = new RemoteWebDriver(new URL("http://192.168.68.109:4444"), chromeOptions);
                 break;
             case "firefox":
                 firefoxOptions = new FirefoxOptions();
-                driver = new RemoteWebDriver(new URL(" http://192.168.68.104:4444"), firefoxOptions);
+                driver = new RemoteWebDriver(new URL("http://192.168.68.109:4444"), firefoxOptions);
                 break;
         }
     }
